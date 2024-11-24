@@ -1,3 +1,6 @@
+//Kumara Fawwas Abhista
+//2200016100 (C)
+
 import { render, screen, fireEvent } from '@testing-library/react';
 import { Counter, Greeting, AlertButton } from './latihan';
 import '@testing-library/jest-dom';
@@ -39,15 +42,15 @@ describe('Latihan - Counter Component', () => {
 
 describe('Latihan - Greeting Component', () => {
   test('Greeting component renders my name', () => {
-    render(<Greeting name="Nama Anda" />);
+    render(<Greeting name="Kumara" />);
     const greeting = screen.getByTestId('greeting');
-    expect(greeting).toHaveTextContent('Hello, Nama Anda');
+    expect(greeting).toHaveTextContent('Hello, Kumara');
   });
 
   test('Greeting component renders my lecturer\'s name', () => {
-    render(<Greeting name="Nama Dosen Anda" />);
+    render(<Greeting name="Pak Iwan" />);
     const greeting = screen.getByTestId('greeting');
-    expect(greeting).toHaveTextContent('Hello, Nama Dosen Anda');
+    expect(greeting).toHaveTextContent('Hello, Pak Iwan');
   });
 });
 

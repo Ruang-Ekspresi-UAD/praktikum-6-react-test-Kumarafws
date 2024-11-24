@@ -1,3 +1,6 @@
+//Kumara Fawwas Abhista
+//2200016100 (C)
+
 import React, { useState } from 'react';
 
 export const Counter = () => {

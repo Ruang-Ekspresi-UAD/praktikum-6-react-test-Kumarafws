@@ -1,3 +1,6 @@
+//Kumara Fawwas Abhista
+//2200016100 (C)
+
 import React from 'react';
 
 const Display = ({ value }) => {
