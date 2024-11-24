@@ -48,9 +48,9 @@ describe('Latihan - Greeting Component', () => {
   });
 
   test('Greeting component renders my lecturer\'s name', () => {
-    render(<Greeting name="Pak Iwan" />);
+    render(<Greeting name="Pak Farid" />);
     const greeting = screen.getByTestId('greeting');
-    expect(greeting).toHaveTextContent('Hello, Pak Iwan');
+    expect(greeting).toHaveTextContent('Hello, Pak Farid');
   });
 });
 
